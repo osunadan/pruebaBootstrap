@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+
+#banner {
+  position: relative;
+  background-image: url(../assets/imagen-estudios-banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#BG {
+  background-color: rgba(0, 0, 0, 1);
+  min-height: 400px;
+  height: inherit;
+  width: inherit;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #f7f7f7;
+  position: absolute;
+  padding: 10%;
+}
+
+#cards {
+  margin: 5% 0 0 0;
+}
+
+#footer {
+  background-color: #063d5b;
+  margin-top: 3rem;
+}
+
+#main {
+  min-height: 100%;
+  width: 70%;
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #main {
+    width: 100%;
+  }
+}
